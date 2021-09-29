@@ -4,6 +4,11 @@ package com.yash.ems.util;
 import java.sql.Connection;
 import java.sql.DriverManager;
 
+/**
+ * Class for providing Connection object
+ * @author abdeali.tinwala
+ *
+ */
 public class DataUtility {
 	public static Connection connect() throws Exception{
 	      Class.forName("com.mysql.jdbc.Driver");
